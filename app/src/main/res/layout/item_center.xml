@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/inst_nm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="의료기관 명"
+            android:textSize="28sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/jurisd_nm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="주소"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/opr_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="평일 진료시간"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/sat_opr_cont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="토요일 진료"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/holdy_opr_chnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="일요일 진료"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="전화번호"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/rm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="장애인 편의"
+            android:textSize="18sp"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="관할 보건소"-->
+<!--            android:textSize="24sp"-->
+<!--            android:padding="3dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/inst_phone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="관할 보건소 전화번호"-->
+<!--            android:textSize="18sp" />-->
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_reorder"/>
+
+</LinearLayout>
