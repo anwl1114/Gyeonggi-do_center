@@ -14,7 +14,7 @@ https://cliearl.github.io/posts/android/download-json-data-using-retrofit/
 https://developer.android.com/kotlin/coroutines?hl=ko
 
 
-[today error]
+[20220313 today error]
 - Expecting an element
 - Object is not abstract and does not implement abstract member public abstract fun onFailure(call: Call<CenterResponse!>!, t: Throwable!): Unit defined in retrofit2.Callback
 - Suspicious size: this will make the view invisible, probably intended for layout_height  Using 0dp as the width in a horizontal LinearLayout with weights is a useful trick to ensure that only the weights (and not the intrinsic sizes) are used when sizing the children.  However, if you use 0dp for the opposite dimension, the view will be invisible. This can happen if you change the orientation of a layout without also flipping the 0dp dimension in all the children.
